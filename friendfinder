@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Friend Finder</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f5f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .updated {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+
+        h2 {
+            color: #1a73e8;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 16px;
+            margin-top: 12px;
+        }
+
+        ul {
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .highlight {
+            background: #eef4ff;
+            padding: 10px;
+            border-left: 4px solid #1a73e8;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: January 28, 2026</div>
+
+    <div class="card">
+        <p>
+            Friend Finder App ("we," "our," or "us") is committed to protecting your privacy.
+            This Privacy Policy explains what data we collect and why we collect it.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>1. Information We Collect and Why</h2>
+
+        <h3>A. Personal Information</h3>
+        <ul>
+            <li><strong>Collected:</strong> Name, Email, Date of Birth, Gender, Bio, Interests</li>
+            <li><strong>Purpose:</strong> Profile creation, friend matching, and account security.</li>
+        </ul>
+
+        <h3>B. Location Information (Core Feature)</h3>
+        <ul>
+            <li><strong>Collected:</strong> Real-time GPS location</li>
+            <li><strong>Purpose:</strong></li>
+            <ul>
+                <li>Show nearby users</li>
+                <li>Calculate distance</li>
+                <li>Enable "People Nearby" feature</li>
+            </ul>
+        </ul>
+        <div class="highlight">
+            📍 Location is updated only when the app is in use.  
+            You may disable location access, but nearby features will stop working.
+        </div>
+
+        <h3>C. Face Verification Data (Biometric)</h3>
+        <ul>
+            <li><strong>Collected:</strong> Encrypted face vector (not raw image)</li>
+            <li><strong>Purpose:</strong></li>
+            <ul>
+                <li>Prevent fake accounts</li>
+                <li>Avoid catfishing</li>
+                <li>Stop duplicate accounts</li>
+            </ul>
+        </ul>
+        <div class="highlight">
+            🔐 We never store raw face images and never share biometric data.
+        </div>
+
+        <h3>D. Photos and Media</h3>
+        <ul>
+            <li>Profile photos and chat media</li>
+            <li>Used only for social interaction inside the app</li>
+        </ul>
+
+        <h3>E. Device and Usage Information</h3>
+        <ul>
+            <li>Device model & OS version</li>
+            <li>IP address</li>
+            <li>FCM token</li>
+        </ul>
+        <p><strong>Purpose:</strong> Security, notifications, and performance optimization.</p>
+    </div>
+
+    <div class="card">
+        <h2>2. Data Retention and Deletion</h2>
+        <ul>
+            <li>Your data is stored only while your account is active.</li>
+            <li>You can delete your account anytime from:</li>
+        </ul>
+        <div class="highlight">
+            Settings → Privacy & Security → Delete Account
+        </div>
+        <p>All personal data, location history, and face data will be permanently deleted.</p>
+    </div>
+
+    <div class="card">
+        <h2>3. User Safety Features</h2>
+        <ul>
+            <li>Block users</li>
+            <li>Report abuse or fake profiles</li>
+            <li>Reports are reviewed within 24 hours</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>4. Third-Party Services</h2>
+        <ul>
+            <li><strong>Google Maps</strong> – Location services</li>
+            <li><strong>Firebase</strong> – Notifications & authentication</li>
+            <li><strong>ImageKit</strong> – Secure image hosting</li>
+            <li><strong>Brevo</strong> – Email & OTP services</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:aungkominn046@gmail.com">aungkominn046@gmail.com</a></p>
+    </div>
+
+    <div class="footer">
+        © 2026 Friend Finder App. All rights reserved.
+    </div>
+
+</div>
+
+</body>
+</html>
